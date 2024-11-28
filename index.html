@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://th.bing.com/th/id/R.f015e3cc6cd81dd5ada89a1b680583c2?rik=dEIqe4MsHWdyxA&riu=http%3a%2f%2fwww.drodd.com%2fimages15%2fletter-x4.png&ehk=qGZ0BybKt%2fJVkbFIvFkSicOMqtIrndsnOI0ryZ4a1LU%3d&risl=&pid=ImgRaw&r=0">
+    <title>spec x</title>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="contrainer-navbar">
+            <div class="logo">
+                <a href=""><img src="https://th.bing.com/th/id/R.f015e3cc6cd81dd5ada89a1b680583c2?rik=dEIqe4MsHWdyxA&riu=http%3a%2f%2fwww.drodd.com%2fimages15%2fletter-x4.png&ehk=qGZ0BybKt%2fJVkbFIvFkSicOMqtIrndsnOI0ryZ4a1LU%3d&risl=&pid=ImgRaw&r=0" alt=""></a>
+            </div>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Who are You</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="contrainer">
+        <div class="box">
+            <div class="people">
+                <div class="people-box">
+                    <button onclick="checkAnswer(true)">Elon musk</button>
+                    <p>สวัสดีครับผมelonผมเป็นเพื่อนที่ดีของคุณเลือกผมสิ</p>
+                    <img src="https://i.insider.com/5fecb76fa644880018193da1?format=jpeg" alt="">
+                </div>
+
+                <div class="people-box">
+                    <button onclick="checkAnswer(false)">Puthai</button>
+                    <p>สวัสดีครับผมputhaiผมเป็นเพื่อนที่ดีของคุณเลือกผมสิ</p>
+                    <img src="puthai.jpg" alt="">
+                </div>
+
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn" onclick="closeModal()">&times;</span>
+                        <p id="modal-message"></p>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
